@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the Meteo App</title>
+    <link rel ="stylesheet" href ="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Meteo App</title>
 </head>
 <body>
+    <div class="weather-app">
+    <header>
+        <form>
+        <input type ="search" placeholder="Enter a city..." required/>
+        <input type="submit" value ="Search"/>
+        </form>
+    </header>
+    <main>
+    <h1>Paris</h1>
+        <p>
+            Tuesday 14:40, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13 km/h 
+        </p>
+        </main>
 <footer>
-    Coded by <a href = "https://github.com/antuanettaV" target ="_blank">
+    This project was coded by <a href = "https://github.com/antuanettaV" target ="_blank">
      Hanna</a> is open-sourced on <a href="https://github.com/antuanettaV/meteo" target ="_blank">GitHub</a>
     website hosted on <a href = "https://meteo-projectapp.netlify.app/" target ="_blank"> Netlify</a>
  </footer>  
+</div>
 </body>
 </html>
